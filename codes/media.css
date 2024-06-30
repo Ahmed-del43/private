@@ -1,0 +1,54 @@
+@media (max-width:768px) {
+    .imge img {
+        width: 100% !important;
+    }
+
+    .visa {
+        display: none !important;
+    }
+
+    .Unlimited-Acess input {
+        width: 100%;
+    }
+
+    .Unlimited-Acess button {
+        width: 100%;
+    }
+
+    .The-text {
+        display: none;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .Salah-News p {
+        margin: 1rem !important;
+    }
+
+    .Salah-News .fs {
+        font-size: 27px;
+    }
+
+    .The-text {
+        display: none;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    .Salah-News .fs {
+        font-size: 20px;
+    }
+
+    .Salah-News p:not(.one) {
+        margin: 0;
+    }
+
+    .visa .row .col-lg-12 .mb-4 {
+        margin-bottom: 0 !important;
+    }
+
+    .The-text {
+        display: -webkit-box;
+    }
+}

@@ -1,0 +1,288 @@
+:root {
+    --my-color: #7C261D;
+    --bgblac: white;
+    --wbg: black;
+    --secondary-bg-rgb: rgb(242 242 242) !important;
+    --tertiary-bg-rgb: rgb(248 249 250) !important;
+    --weshcolor: rgba(0, 0, 0, .5) !important;
+}
+
+body {
+    background-color: var(--bgblac) !important;
+    color: var(--wbg) !important;
+}
+
+.React {
+    background-color: var(--secondary-bg-rgb) !important;
+}
+
+.React-2 {
+    background-color: var(--tertiary-bg-rgb);
+}
+
+.React-2 ul a li {
+    color: var(--wbg);
+}
+
+.my-text-black {
+    color: var(--weshcolor) !important;
+}
+
+.Active {
+    color: var(--my-color);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+body {
+    font-family: 'Abril Fatface', serif !important;
+    font-family: 'Gochi Hand', cursive !important;
+    font-family: 'Lato', sans-serif !important;
+    font-family: 'Work Sans', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+nav {
+    background: var(--my-color);
+}
+
+header ul a li {
+    transition: 0.3s all;
+}
+
+header ul a li:hover {
+    text-decoration: underline;
+    background: rgba(124, 38, 29, 0.05);
+}
+
+.Salah-News .fs {
+    font-size: 26px;
+}
+
+.Salah-News p {
+    margin: 0;
+}
+
+.mtt {
+    margin-top: -5px;
+}
+
+.for::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 0;
+    bottom: 4px;
+    background: #ffc107c2;
+    z-index: -999;
+}
+
+.fit {
+    width: fit-content;
+}
+
+.Svg-At-Recommended {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid#E4E4E5;
+    display: flex;
+    border-radius: 28px;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 0;
+}
+
+.Svg-At-Recommended svg {
+    width: 16px;
+}
+
+.Unlimited-Acess {
+    background-image: url(../img/WhatsApp\ Image\ 2023-12-01\ at\ 10.23.01\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+
+.powerful span::after {
+    content: "";
+    position: absolute;
+    width: 78%;
+    height: 11px;
+    right: 0;
+    bottom: 4px;
+    background: black;
+    z-index: -888;
+}
+
+.unmber {
+    font-family: 'Lato', sans-serif !important;
+    color: yellow;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.Own-Content {
+    background-image: url(../img/WhatsApp\ Image\ 2023-12-01\ at\ 10.24.55\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+}
+
+.powermood h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    right: 0;
+    bottom: 12px;
+    background: black;
+    z-index: -888;
+}
+
+.powermood2 h1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    right: 0;
+    bottom: 1px;
+    background: black;
+    z-index: -888;
+}
+
+.fs-0 {
+    font-size: 11px;
+}
+
+.Svg-al-last {
+    border: 1px solid;
+    padding: 2px;
+}
+
+.button-last {
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.offcanvas-body svg {
+    cursor: pointer;
+}
+
+.offcanvas-body ul li:hover {
+    color: var(--my-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-news {
+    height: 183px;
+}
+
+.bg-footer {
+    background: linear-gradient(94deg, #7C241B 0%, #040101 100%);
+}
+
+nav button {
+    border-radius: 8px;
+    background: var(--color);
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.joo {
+    font-size: 44px;
+    display: flex;
+}
+
+.ererww {
+    margin-left: 14px;
+    overflow-x: hidden;
+    border-right: 2px red solid;
+    animation: head steps(11) 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.Text-hidden,
+.Text-hidden2,
+.Text-hidden3 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.Text-hidden {
+    -webkit-line-clamp: 5;
+}
+
+.Text-hidden2 {
+    -webkit-line-clamp: 6;
+}
+
+.Text-hidden3 {
+    -webkit-line-clamp: 7;
+}
+
+/* @keyframes head {
+    0% {
+        width: 0vh;
+    }
+
+    50% {
+        width: 8ch;
+    }
+
+    100% {
+        width: 0vh;
+    }
+} */
+
+.mmmm {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+#inm {
+    display: none;
+}
+
+.xxxxc svg {
+    position: absolute;
+    font-size: 33px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.xxxxc .sss {
+    opacity: 0;
+}
+
+:has(#inm:checked) .xxxxc .ddd {
+    opacity: 0;
+}
+
+:has(#inm:checked) .xxxxc .sss {
+    opacity: 1;
+}
+
+:has(#inm:checked) {
+    --bgblac: rgb(0, 0, 0);
+    --wbg: white;
+    --secondary-bg-rgb: rgb(0 0 0) !important;
+    --tertiary-bg-rgb: rgb(30 30 30) !important;
+    --weshcolor: rgb(255 255 255 / 87%) !important
+}
